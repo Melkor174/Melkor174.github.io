@@ -1,0 +1,147 @@
+.menu_header {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+}
+
+.menu_title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.catalog {
+	display: block;
+}
+
+.section_sort {
+	position: absolute;
+	right: 0;
+	top: 30px;
+	z-index: 100;
+	cursor: pointer;
+	padding: 5px 10px;
+	width: 200px;
+	background-color: #fff;
+	border-radius: 15px 15px 0px 0px;
+	box-shadow: 0px 0px 18px 6px rgba(0, 0, 0, 0.09);	
+}
+
+.section_sort:hover {
+	box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.872);	
+}
+
+
+.section_sort_title {
+	font-weight: 300;
+	font-size: 14px;
+	color: #A4ACAD;
+	margin-bottom: 10px;
+}
+
+.menu_name {   
+    font-weight: 400;
+    font-size: 36px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.section_sort_value {
+	position: relative;
+	font-weight: 400;
+	font-size: 18px;
+	color: #111111;
+	padding-bottom: 10px;
+	
+}
+
+.section_sort_value::after {
+	content: '';
+	position: absolute;
+	right: 0;
+	bottom: 57%;
+	width: 12px;
+	height: 12px;
+	border-left: 1px solid #F46D40;
+	border-bottom: 1px solid #F46D40;
+	transform: rotate(-45deg);
+}
+
+.section_sort_list {
+	display: none;
+	border-top: 0.5px solid #A4ACAD;
+}
+
+.section_sort_item {
+	margin-top: 25px;
+}
+
+.section_sort_link {
+	font-weight: 400;
+	font-size: 18px;
+	color: #111111;
+}
+
+
+.menu_title_icon {
+	margin-right: 25px;
+	width: 45px;
+	height: 45px;
+}
+
+.catalog_wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.catalog_wrapper > .section_product {
+	margin-top: 15px;
+}
+
+
+
+
+
+@media (max-width: 605px) {
+.catalog_wrapper {
+	justify-content: center;
+}
+
+.menu_name {
+	font-size: 25px;
+}
+
+
+ .section_sort {
+	width: 100px;
+ }
+
+ .section_sort_value {
+	font-size: 0;
+ }
+
+ .section_sort_item {
+	border-bottom: 1px solid #000;
+ }
+
+ .section_sort_link {
+	font-size: 15px;
+	
+ }
+
+}
+
+/* @media(max-width: 607px) {
+	.catalog_wrapper {
+		justify-content: center;
+	 }
+} */
+
+
+
+
+
