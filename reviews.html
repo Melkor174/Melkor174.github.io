@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ROMSEM</title>
+</head>
+<body>
+
+    <div class="overlay">
+
+    <!--Делаем сайд-бары левый и правый-->
+        <div class="side_bar side_bar_left">
+            <div class="side__bar_conent">
+            
+                <a href="index.html" class="logo">
+                    <img src="img/logo.png" alt="logo" class="logo_img">
+                    <div class="logo_title">Romsem</div>
+                </a>
+
+                <nav class="nav">
+                    <div class="nav_wrapper">
+                        <ul class="nav_list">
+                            <li class="nav_item">
+                                <img src="img/nav_icons/pizza.png" alt="pizza" class="nav_icons">
+                                <a href="pizza.html" class="nav_link">Пица</a>
+                            </li>
+                            <li class="nav_item">
+                                <img src="img/nav_icons/sets.png" alt="setsd" class="nav_icons">
+                                <a href="sets.html" class="nav_link">Сеты</a>
+                            </li>
+                            <li class="nav_item">
+                                <img src="img/nav_icons/wok.png" alt="wok" class="nav_icons">
+                                <a href="wok.html" class="nav_link">WOK</a>
+                            </li>
+                            <li class="nav_item">
+                                <img src="img/nav_icons/rolls.png" alt="rolls" class="nav_icons">
+                                <a href="rolls.html" class="nav_link">Роллы</a>
+                            </li>
+                            <li class="nav_item">
+                                <img src="img/nav_icons/nigiri.png" alt="nigiri" class="nav_icons">
+                                <a href="sushi.html" class="nav_link">Суши</a>
+                            </li>
+                            <li class="nav_item">
+                                <img src="img/nav_icons/salad.png" alt="salad" class="nav_icons">
+                                <a href="salads.html" class="nav_link">Салаты</a>
+                            </li>
+                            <li class="nav_item">
+                                <img src="img/nav_icons/corn.png" alt="corn-dog" class="nav_icons">
+                                <a href="korn_dogs.html" class="nav_link">Корн доги</a>
+                            </li>
+                            <li class="nav_item">
+                                <img src="img/nav_icons/drinks.png" alt="drink" class="nav_icons">
+                                <a href="drinks.html" class="nav_link">Напитки</a>
+                            </li>
+                        </ul>
+                    </div> <!--nav_wrapper-->
+                </nav>
+            </div> <!--side__bar_conent-->
+        </div><!--side_bar_left-->
+
+
+
+
+
+        <!--Основной контент-->
+        <div class="main">
+            <header class="header">
+                <div class="header_wrapper">
+                    <div class="header_contacnts">
+                        <div class="header_contacnts_title">Наш телефон</div>
+                        <a href="tel:+79085830498" class="telephone">89085830498</a>
+                        <a href="tel:+79085830498" class="telephone">89085830498</a>
+                        <div class="work_time">работаем с 10:00 до 00:00</div>
+                    </div> <!--header_contacnts-->
+
+                    <div class="header_flex-content">
+                        <div class="city">
+                            <span>Город:</span> <br>
+                            Челябинск
+                        </div> <!--city-->
+    
+                        <div class="header_nav">
+                            <a href="#" class="header_link">Отзывы</a>
+                            <a href="" class="header_link">Доставка и оплата</a>
+                        </div> <!--header_nav-->
+                    </div> <!--header_flex-content-->
+                </div> <!--header_wrapper-->
+            </header>
+
+
+
+            <section class="modal_review" id="modalReview">
+                <div class="container">
+                    <div action="#" class="review_form">
+                        <div class="review_form_title">
+                            <input id="nameReviwer" name="name_reviwer" type="text" class="review_form_item" placeholder="ВВедите ваше имя" value="">
+                            <input id="dateReview" type="text" class="review_form_item review_form_item_date" placeholder="Дата заказа" value="">
+                        </div> <!--review_form_title-->
+
+                        <textarea id="textarea" value="" class="review_form_text" name="" id="reviewFormText"  placeholder="Напишите ваш отзыв"></textarea>
+                        <div class="review_form_btn_wrapper">
+                            <button class="review_form_btn">Опубликовать</button>
+                            <button class="review_form_btn review_form_btn_close">Закрыть</button>
+                        </div> <!--review_form_btn_wrapper-->
+                    </div>
+                </div> <!--container-->
+            </section>
+
+
+            <section class="reviews" id="reviews">
+                <div class="container">
+                    <div class="reviews_header">
+                        <div class="reviews_title">Отзывы</div>
+                        <a href="#" class="reviews_btn" id="reviewsBtn">+ Добавить</a>
+                    </div> <!--reviews_header-->
+
+                    <div class="reviews_wrapper">
+                        <div class="reviews_item">
+                            <div class="review_title">
+                                <div class="review_name" id="reviewName">Розалия</div>
+                                <div class="review_date" id="reviewDate">02.24.21</div>
+                            </div> <!--review_title-->
+                            <div class="review_text" id="reviewText">Ваша доставка и ваши блюда лучшие в Харькове!) всегда очень вкусно, вовремя, всегда вежливые курьеры и девушки на телефоне</div>
+                        </div> <!--reviews_item-->
+
+                        <div class="reviews_item">
+                            <div class="review_title">
+                                <div class="review_name" id="reviewName">Елена</div>
+                                <div class="review_date" id="reviewDate">02.23.21</div>
+                            </div> <!--review_title-->
+                            <div class="review_text" id="reviewText">Ооочень вкусно!!!!!</div>
+                        </div> <!--reviews_item-->
+
+                        <div class="reviews_item">
+                            <div class="review_title">
+                                <div class="review_name" id="reviewName">Сергей Гаврилюк</div>
+                                <div class="review_date" id="reviewDate">04.10.21</div>
+                            </div> <!--review_title-->
+                            <div class="review_text" id="reviewText">Заказываем у Вас больше 2 -ух лет, были разные ситуации, но сервис стал лучше, суши вкуснее. За доставку сегодня на время, огромное спасибо, точь-в-точь в минута в минуту. Успехов Вам и приятных бонусов нам )</div>
+                        </div> <!--reviews_item-->
+
+                    </div> <!--reviews_wrapper-->
+                </div> <!--container-->
+            </section>
+
+
+            <!---------------------------------------------------------------------FOOTER -->
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer_wrapper">
+                        <div class="footer_item">
+                            <ul class="footer_list">
+                                <li class="footer_list_item"> <a href="#" class="footer_link">О компании</a></li>
+                                <li class="footer_list_item"> <a href="#" class="footer_link">Доставка и оплата</a></li>
+                                <li class="footer_list_item"> <a href="#" class="footer_link">Лента материалов</a></li>
+                                <li class="footer_list_item"> <a href="#" class="footer_link">Политика возврата</a></li>
+                            </ul>
+                        </div> <!--footer_item-->
+    
+                        <div class="footer_item item_with_border">
+                            <div class="footer_social">
+                                <div class="footer_social_title">Свяжитесь с нами!</div>
+                                <div class="footer_social_text">Выберите удобный мессенджер для общения</div>
+                                <div class="footer_social_wrapper">
+                                       <a href="https://wa.me/79085830498" class="footer_social_link"><img src="img/social/whatsapp.png" alt="whatsapp" class="footer_social_icons"></a>
+                                       <a href="#" class="footer_social_link"><img src="img/social/instagram.png" alt="instagram" class="footer_social_icons"></a> 
+                                       <a href="#" class="footer_social_link"><img src="img/social/telegram.png" alt="telegram" class="footer_social_icons"></a> 
+                                </div> <!--footer_social_wrapper-->
+                            </div> <!--footer_social-->
+                        </div> <!--footer_item-->
+                                
+                        <div class="footer_item">
+                            <div class="footer_contacts">
+                                <a href="tel:+79085830498" class="footer_tel">Тел: 89085830498</a>
+                                <a href="tel:+79085830498" class="footer_tel">Тел: 89085830498</a>
+                                <div class="footer_adress">Адрес: Бакаева 126</div>
+                            </div> <!--footer_contacts-->
+                        </div> <!--footer_item-->
+                    </div> <!--footer_wrapper-->
+                </div> <!--container-->     
+            </footer>
+        </div> <!--main-->
+
+        <!--Правый сайд бар-->
+        <div class="side_bar side_bar_right">
+            <div class="basket">
+                <div class="basket_titte">Ваша корзина пуста.</div>
+                <div class="basket_descr">Добавьте же скорее что-нибудь!</div>
+                <div class="basket_delivery">Бесплатная доставка от 800 rub</div>
+            </div> <!--basket-->
+        </div><!--side_bar_right-->
+
+    </div> <!--overlay-->
+    <script>
+
+
+
+
+
+
+
+
+        // reviews
+        const addReview = document.querySelector('.reviews_btn'),
+              newReview = document.querySelector('.modal_review'),
+              oldReciew = document.querySelector('.reviews'),
+              closeReciew = document.querySelector('.review_form_btn_close'),
+              publishReview = document.querySelector('.review_form_btn');
+             
+        
+
+        
+
+
+
+
+        addReview.addEventListener('click', () =>{
+            oldReciew.style.display = 'none';
+            newReview.style.display = 'block';
+        });
+
+        closeReciew.addEventListener('click', () =>{
+            oldReciew.style.display = 'block';
+            newReview.style.display = 'none';
+        });
+
+
+
+
+
+
+        publishReview.addEventListener('click', function(){
+            const reviewItem = document.querySelector('.reviews_wrapper');
+                let name = document.getElementById("nameReviwer").value;
+                    date = document.getElementById("dateReview").value;
+                    text = document.getElementById("textarea").value;
+
+            if(date == '' || name == '' || text == '' ) {
+                    alert('Заполнены не все поля!');   
+            }
+            else {
+                oldReciew.style.display = 'block';
+                newReview.style.display = 'none';
+
+               
+
+                // let items = document.querySelectorAll('.reviews_item')//.append(newName);
+
+                //создаем элементы
+                let div = document.createElement('div');
+                let reviewTitle = document.createElement('div');
+                let reviewName = document.createElement('div');
+                let reviewDate = document.createElement('div');
+                let reviewText = document.createElement('div');
+                div.classList.add('reviews_item');
+                reviewTitle.classList.add('review_title');
+                reviewName.classList.add('review_name');
+                reviewDate.classList.add('review_date');
+                reviewText.classList.add('review_text');
+
+                document.querySelector('.reviews_wrapper').prepend(div);
+                div.prepend(reviewTitle);
+                reviewTitle.prepend(reviewName);
+                reviewTitle.appendChild(reviewDate);
+                reviewName.innerHTML = name;
+                reviewDate.innerHTML = date;
+                div.appendChild(reviewText);
+                reviewText.innerHTML = text;
+
+
+            }
+
+
+          
+         
+
+
+
+
+
+            // newName = document.createElement('div');
+
+
+                
+            // главный айтем
+
+            
+            // document.querySelector('.reviews_wrapper').appendChild(review);
+            // document.querySelector('.reviews_item').appendChild(newName);
+            
+
+            
+            
+
+            // for(i = 0; i < items.length; i++){
+            //     items[i].appendChild(newName);
+            // }
+            
+
+            // oldReciew.style.display = 'block';
+            // newReview.style.display = 'none';
+
+
+
+
+        })
+
+
+
+    </script>
+</body>
+</html>
